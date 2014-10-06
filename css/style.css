@@ -1,0 +1,114 @@
+/* HEADER */
+.contain-to-grid {
+    background-image: url(../img/header-bg.png);
+}
+
+.top-bar {
+    height: 132px;
+    background-image: url(../img/header-bg.png);
+}
+
+.logo {
+    width: 228px;
+    height: 132px;
+    
+    background-color: white;
+    background-image: url(../img/logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* QUADRADOS COLORIDOS */
+.blue1 {
+    width: 52px;
+    height: 64px;
+    
+    background-color: #364780;
+}
+
+.green1 {
+    width: 52px;
+    height: 68px;
+    
+    background-color: #86883c;
+}
+
+.orange-above-home {
+    width: 90px;
+    height: 64px;
+    
+    background-color: #f26522;
+}
+
+.green-above-home {
+    width: 180px;
+    height: 64px;
+    
+    background-color: #1a401e;
+}
+
+.home-button {
+    width: 180px;
+    height: 68px;
+    
+    background-color: #009252;
+}
+
+.blue-above-empresa {
+    width: 62px;
+    height: 64px;
+    
+    background-color: #364780;
+}
+
+.red-above-empresa {
+    width: 180px;
+    height: 64px;
+    
+    background-color: #a21418;
+}
+
+.empresa-button {
+    width: 180px;
+    height: 68px;
+    
+    background-color: #f26522;
+}
+
+.green-above-produtos {
+    width: 180px;
+    height: 64px;
+    
+    background-color: #8dc63f;
+}
+
+.produtos-button {
+    width: 180px;
+    height: 68px;
+    
+    background-color: #8dc63f;
+}
+
+.green-above-contato {
+    width: 92px;
+    height: 64px;
+    
+    background-color: #1a401e;
+}
+
+.blue-above-contato {
+    width: 180px;
+    height: 64px;
+    
+    background-color: #a21418;
+}
+
+.contato-button {
+    width: 180px;
+    height: 68px;
+    
+    background-color: #009252;
+}
+
+/* FIM DOS QUADRADOS COLORIDOS */
+/* FIM DO HEADER */
