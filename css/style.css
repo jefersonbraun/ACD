@@ -1,11 +1,12 @@
 /* HEADER */
 .contain-to-grid {
     background-image: url(../img/header-bg.png);
+    background-position: center;
 }
 
 .top-bar {
     height: 132px;
-    background-image: url(../img/header-bg.png);
+    background-color: transparent;
 }
 
 .logo {
@@ -19,95 +20,83 @@
 }
 
 /* QUADRADOS COLORIDOS */
-.blue1 {
+.first-square {
     width: 52px;
     height: 64px;
-    
+}
+
+.second-square {
+    width: 52px;
+    height: 68px;
+}
+
+.blue {
     background-color: #364780;
 }
 
 .green1 {
-    width: 52px;
-    height: 68px;
-    
     background-color: #86883c;
 }
 
-.orange-above-home {
+.green2 {
+    background-color: #009252;
+}
+
+.green3 {    
+    background-color: #1a401e;
+}
+
+.green4 {
+    background-color: #8dc63f;
+}
+
+.orange {
+    background-color: #f26522;
+}
+
+.red {
+    background-color: #a21418;
+}
+
+.menu-containers {
+    width: 180px;
+    float:left;
+}
+
+.above-home1 {
     width: 90px;
     height: 64px;
-    
-    background-color: #f26522;
 }
 
-.green-above-home {
+.above2 {
     width: 180px;
     height: 64px;
-    
-    background-color: #1a401e;
 }
 
-.home-button {
+.menu-button {
     width: 180px;
     height: 68px;
-    
-    background-color: #009252;
 }
 
-.blue-above-empresa {
+.above-empresa1 {
     width: 62px;
     height: 64px;
-    
-    background-color: #364780;
 }
 
-.red-above-empresa {
+.above-produtos {
     width: 180px;
     height: 64px;
-    
-    background-color: #a21418;
 }
 
-.empresa-button {
-    width: 180px;
-    height: 68px;
-    
-    background-color: #f26522;
-}
-
-.green-above-produtos {
-    width: 180px;
-    height: 64px;
-    
-    background-color: #8dc63f;
-}
-
-.produtos-button {
-    width: 180px;
-    height: 68px;
-    
-    background-color: #8dc63f;
-}
-
-.green-above-contato {
+.above-contato1 {
     width: 92px;
     height: 64px;
-    
-    background-color: #1a401e;
 }
 
-.blue-above-contato {
-    width: 180px;
-    height: 64px;
-    
-    background-color: #a21418;
-}
-
-.contato-button {
-    width: 180px;
-    height: 68px;
-    
-    background-color: #009252;
+@media only screen and (max-width: 64.063em) {
+    .menu-containers, .above2, .menu-button {
+        width: 170px;
+    }
 }
 
 /* FIM DOS QUADRADOS COLORIDOS */
