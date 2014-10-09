@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <title>ACD Plásitcos</title>
+    </head>
+    <body>
+        <header class="contain-to-grid sticky">
+            <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
+                <a href="#" style="float:left;">
+                    <div class="logo">&nbsp;</div>
+                </a>
+                
+                <div class="show-for-large-up" style="float:left;">
+                    <div class="first-square blue">&nbsp;</div>
+                    <div class="second-square green1">&nbsp;</div>
+                </div>
+                
+                <div class="show-for-medium-up">
+                    <div class="menu-containers">
+                        <div class="orange above-home1" style="float:left;">&nbsp;</div>
+                        <div class="green3 above2">&nbsp;</div>
+                        <a href="index.html">
+                            <div class="menu-button green2" style="float:left;">Home</div>
+                        </a>
+                    </div>
+
+                    <div class="menu-containers">
+                        <div class="blue above-empresa1" style="float:left;">&nbsp;</div>
+                        <div class="red above2">&nbsp;</div>
+                        <a href="empresa.html">
+                            <div class="menu-button orange" style="float:left;">Empresa</div>
+                        </a>
+                    </div>
+
+                    <div class="menu-containers">
+                        <div class="above-produtos green4" style="float:left;">&nbsp;</div>
+                        <a href="produtos.html">
+                            <div class="menu-button green4" style="float:left;">Produtos</div>
+                        </a>
+                    </div>
+
+                    <div class="menu-containers">
+                        <div class="above-contato1 green3" style="float:left;">&nbsp;</div>
+                        <div class="above2 blue">&nbsp;</div>
+                        <a href="contato.html">
+                            <div class="menu-button green2 active" style="float:left;">Contato</div>
+                        </a>
+                    </div>
+                </div>
+                
+            </nav>
+        </header>
+        
+        <div class="row fullWidth">
+            <div class="show-for-medium-up medium-6 large-6 columns">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13914.647500681383!2d-51.433333314374615!3d-29.3215925061639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951c1c81c1c42a31%3A0x6fb21b710fffef0c!2sRS-446%2C+Rio+Grande+do+Sul!5e0!3m2!1spt-BR!2sbr!4v1412868901731" height="700" frameborder="0" style="border:0; margin-left: -20px; width: 100%;"></iframe>
+            </div>
+            <div class="small-1 large-1 columns">&nbsp;</div>
+            <div class="small-11 medium-6 large-4 columns contato-form">
+                <form>
+                    <div class="row">
+                        <div class="small-10">
+                            <div class="row">
+                                <div class="small-3 columns">
+                                    <label for="nome" class="right">Nome</label>
+                                </div>
+                                <div class="small-9 columns">
+                                  <input type="text" id="nome">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-3 columns">
+                                    <label for="telefone" class="right">Telefone</label>
+                                </div>
+                                <div class="small-9 columns">
+                                  <input type="text" id="telefone">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-3 columns">
+                                    <label for="email" class="right">E-mail</label>
+                                </div>
+                                <div class="small-9 columns">
+                                  <input type="text" id="email">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-3 columns">
+                                    <label for="empresa" class="right">Empresa</label>
+                                </div>
+                                <div class="small-9 columns">
+                                  <input type="text" id="empresa">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-3 columns">
+                                    <label for="mensagem" class="right">Mensagem</label>
+                                </div>
+                                <div class="small-9 columns">
+                                    <textarea rows="4" id="mensagem"></textarea>
+                                    <a href="#" class="button">Enviar</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-3 columns">
+                                </div>
+                                <div class="small-9 columns">
+                                    <address>
+                                        Rod. RS 446, km 07 | Carlos Barbosa | RS<br />
+                                        Tel (54) 3504.4243 | Fax (54) 3461.0184<br />
+                                        CEP 95185-000 | caixa postal 57
+                                    </address>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="show-for-large-up large-1 columns">&nbsp;</div>
+        </div>
+        
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/Easy-Pinned-Footer-master/jquery.ez-pinned-footer.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+            $(document).foundation();
+        </script>
+        <script>
+            $(window).load(function() {
+                $("#footer").pinFooter();
+            });
+
+            $(window).resize(function() {
+                $("#footer").pinFooter();
+            });
+        </script>
+        <div id="footer"></div>
+        
+    </body>
+</html>
