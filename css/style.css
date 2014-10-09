@@ -144,8 +144,8 @@
 
 .home-imagem {
     background-position: center;
-    background-size: 100%;
-    padding-top: 600px;
+    background-size: 1280px;
+    padding-top: 800px;
 }
 
     .img1 {
@@ -165,19 +165,17 @@
     font-size: 18px;
     color: #a21418;
     position: absolute; 
-    top: 200px;
+    top: 120px;
     left: 100px;
     width: 100%;
 }
 
 @media only screen and (max-width: 1024px) {
     .home-imagem {
-        background-size: 1280px;
         padding-top: 600px;
     }
 }
 @media only screen and (max-width: 800px) {
-    
     .home-slider h2 {
         font-size: 14px;
         color: #a21418;
