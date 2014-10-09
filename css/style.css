@@ -8,6 +8,10 @@
     src: url(../fonts/Alcefun Rounded.otf);
 }
 
+body {
+    font-weight: lighter;
+}
+
 /* HEADER */
 .contain-to-grid {
     background-color: transparent;
@@ -313,5 +317,56 @@ address {
     }
 }
 
-
 /* FIM DA PÁGINA CONTATO */
+
+/* PÁGINA PRODUTOS */
+.produtos-container {
+    padding-top: 80px;
+    background-color: white;
+    height: 721px;
+}
+    .produto-image {
+        width: 214px;
+        height: 128px;
+        overflow: hidden;
+    }
+    .produto-image img {
+        max-width: 214px;
+        max-height: 128px;
+        display: block;
+        margin: auto;
+    }
+
+.produto-nome {
+    width: 214px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    vertical-align: middle;
+    color: white;
+    background-color: #364780;
+    font-weight: lighter;
+}
+
+.menu-lateral-button {
+    width: 160px;
+    height: 72px;
+    padding: 18px 31px 0 31px;
+    
+    font-weight: lighter;
+    margin-left: -20px;
+    text-align: center;
+    line-height: 22px;
+    vertical-align: middle;
+    color: white;
+}
+
+.oneLine {
+    padding-top: 24px;
+    font-size: 20px;
+}
+
+.lateral-active {
+    width: 200px; 
+}
+/* FIM DA PÁGINA PRODUTOS */
