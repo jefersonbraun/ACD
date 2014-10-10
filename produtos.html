@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/foundation.min.css">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/featherlight.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         
         <title>ACD Plásitcos</title>
@@ -40,7 +42,7 @@
                     <div class="menu-containers">
                         <div class="above-produtos green4" style="float:left;">&nbsp;</div>
                         <a href="produtos.html">
-                            <div class="menu-button active green4" style="float:left;">Produtos</div>
+                            <div class="menu-button green4 active" style="float:left; position: static !important;">Produtos</div>
                         </a>
                     </div>
 
@@ -77,12 +79,20 @@
                 </div>
                 
                 <div class="large-8 columns">
-                    <ul class="small-block-grid-3">
+                    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                         <li>
-                            <div class="produto-image">
+                            <a href="#" data-featherlight="#fl2">
+                                <div class="produto-image">
+                                    <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas.jpg" />
+                                </div>
+                                <p class="produto-nome">Conjunto de Sobremesa</p>
+                            </a>
+                            <div class="lightbox" id="fl2">
                                 <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas.jpg" />
+                                <h3>Conjunto Sobremesa 7 Peças em Poliestireno</h3>
+                                <span>1 saladeira<br />6 taças de sobremesa</span>
+                                <span class="cores">Cores<br /><img src="#" /></span>
                             </div>
-                            <p class="produto-nome">Conjunto de Sobremesa</p>
                         </li>
                         <li>
                             <div class="produto-image">
@@ -96,11 +106,6 @@
                             </div>
                             <p class="produto-nome">Conjunto de Sobremesa</p>
                         </li>
-                    </ul>
-                </div>
-                
-                <div class="large-8 columns">
-                    <ul class="large-block-grid-3 medium-block-grid-2">
                         <li>
                             <div class="produto-image">
                                 <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas.jpg" />
@@ -125,10 +130,12 @@
 
             </div>
         </div>
-        
+
         <script src="js/vendor/jquery.js"></script>
         <script src="js/foundation.min.js"></script>
         <script src="js/Easy-Pinned-Footer-master/jquery.ez-pinned-footer.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/featherlight/featherlight.min.js"></script>
         <script>
             $(document).foundation();
         </script>

@@ -369,4 +369,8 @@ address {
 .lateral-active {
     width: 200px; 
 }
+
+.lightbox {
+    display: none;
+}
 /* FIM DA PÁGINA PRODUTOS */
