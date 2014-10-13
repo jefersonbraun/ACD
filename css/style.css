@@ -367,7 +367,13 @@ address {
         margin-bottom: 40px;
     }
     .menu-lateral-button {
+        padding: 18px 31px 0 31px;
+        width: 180px;
         float: left;
+    }
+    
+    .lateral-active {
+        width: 160px;
     }
 }
 
