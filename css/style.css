@@ -361,6 +361,16 @@ address {
     color: white;
 }
 
+@media only screen and (max-width: 1024px) {
+    .menu-lateral {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .menu-lateral-button {
+        float: left;
+    }
+}
+
 .oneLine {
     padding-top: 24px;
     font-size: 20px;
@@ -373,4 +383,21 @@ address {
 .lightbox {
     display: none;
 }
+
+    .lightbox h3 {
+       font-size: 14px;
+    }
+
+    .lightbox .cores {
+        float: right;
+        text-align: right;
+    }
+
+    .lightbox img {
+        max-width: 600px;
+        max-height: 600px;
+        display: block;
+        margin: auto;
+    }
+
 /* FIM DA PÁGINA PRODUTOS */
