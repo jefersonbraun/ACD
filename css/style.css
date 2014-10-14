@@ -180,11 +180,6 @@ body {
     width: 100%;
 }
 
-@media only screen and (max-width: 1024px) {
-    .home-imagem {
-        /*padding-top: 600px;*/
-    }
-}
 @media only screen and (max-width: 800px) {
     .home-slider h2 {
         font-size: 14px;
@@ -201,12 +196,7 @@ body {
 /* FOOTER */
 #footer {
     height: 206px;
-    background-color: transparent;
     background-image: url(../img/bg-infinito.png);
-    background-size: 100%;
-    
-    background-position: left bottom;
-    background-repeat: no-repeat;
 }
 /* FIM DO FOOTER */
 
