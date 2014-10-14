@@ -8,6 +8,10 @@
     src: url(../fonts/Alcefun Rounded.otf);
 }
 
+html {
+    background-image: url(../img/bg-infinito.png);
+}
+
 body {
     font-weight: lighter;
 }
