@@ -8,13 +8,13 @@
     src: url(../fonts/Alcefun Rounded.otf);
 }
 
-html {
-    
-}
-
 body {
     background-image: url(../img/bg-infinito.png);
     font-weight: lighter;
+}
+
+.row {
+    background-color: white;
 }
 
 /* HEADER */
@@ -198,7 +198,7 @@ body {
 
 /* FIM DA HOME */
 
-/* FOOTER */
+/* FOOTER
 #footer {
     height: 206px;
     background-color: transparent;
@@ -208,7 +208,7 @@ body {
     background-position: left bottom;
     background-repeat: no-repeat;
 }
-/* FIM DO FOOTER */
+ FIM DO FOOTER */
 
 /* PÁGINA EMPRESA */
 .fullWidth {
