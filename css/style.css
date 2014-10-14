@@ -9,10 +9,11 @@
 }
 
 html {
-    background-image: url(../img/bg-infinito.png);
+    
 }
 
 body {
+    background-image: url(../img/bg-infinito.png);
     font-weight: lighter;
 }
 
