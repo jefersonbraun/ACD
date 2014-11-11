@@ -9,7 +9,6 @@
 }
 
 body {
-    background-image: url(../img/bg-infinito.png);
     font-weight: lighter;
 }
 
@@ -154,7 +153,7 @@ body {
 
 .home-imagem {
     background-position: center;
-    background-size: 1280px;
+    background-size: 100%;
     padding-top: 800px;
 }
 
@@ -195,8 +194,11 @@ body {
 
 /* FOOTER */
 #footer {
-    height: 83px;
-    background-image: url(../img/bg-infinito.png);
+    height: 220px;
+    background-image: url(../img/footer-bg.png);
+    background-position: bottom left;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 /* FIM DO FOOTER */
 
