@@ -339,7 +339,7 @@ address {
 .produtos-container {
     padding-top: 80px;
     background-color: white;
-    height: 721px;
+    height: 900px;
 }
     .produto-image {
         width: 214px;
@@ -354,7 +354,7 @@ address {
     }
 
 .produto-nome {
-    width: 100%;
+    width: 214px;
     height: 26px;
     text-align: center;
     line-height: 26px;

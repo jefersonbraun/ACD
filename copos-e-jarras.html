@@ -4,8 +4,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/foundation.min.css">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="js/featherlight/featherlight.min.css"/>
-        <link rel="stylesheet" type="text/css" href="js/featherlight/featherlight.gallery.min.css"/>
+        <link rel="stylesheet" type="text/css" href="js/fancybox/source/jquery.fancybox.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         
         <title>ACD Plásitcos</title>
@@ -77,15 +76,19 @@
                     <a href="multiuso.html">
                         <div class="menu-lateral-button oneLine green4">Multiuso</div>
                     </a>
+                    
+                    <br /><br />
+                    <a href="#" class="show-for-large-up">
+                        <img src="img/download-catalogo.png" />
+                    </a>
                 </div>
                 
                 <div class="small-12 medium-12 large-8 columns">
+                    
                     <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
-                        
                         <!-- ATENÇÃO: cada <li> representa um produto. TROCAR a id do produto em cada li -->
-                        
                         <li>
-                            <a href="#" data-featherlight="#produto1">
+                            <a href="#produto1" class="fancybox" rel="gallery1">
                                 <div class="produto-image">
                                     <!-- IMAGEM DO PRODUTO -->
                                     <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas.jpg" />
@@ -93,11 +96,22 @@
                                 <!-- TITULO DO PRODUTO -->
                                 <p class="produto-nome">Conjunto de Sobremesa</p>
                             </a>
-                            
-                            <div class="lightbox gallery" id="produto1">
+                            <div class="lightbox" id="produto1">
                                 <!-- IMAGEM DO PRODUTO -->
                                 <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas.jpg" />
-                                
+
+                                <!-- DESCRIÇÃO DO PRODUTO -->
+                                <h3>Conjunto Sobremesa 7 Peças em Poliestireno</h3>
+                                <span class="cores">Cores<br /><img src="img/cores.png" /></span>
+                                <span>1 saladeira<br />6 taças de sobremesa</span>
+                            </div>
+                            
+                            <!-- SE HOUVER MAIS DE UMA IMAGEM POR PRODUTO UTILIZAR ID PRODUTO1-2, PRODUTO1-3... -->
+                            <a style="display:none;" href="#produto1-2" class="fancybox" rel="gallery1"></a>
+                            <div class="lightbox" id="produto1-2">
+                                <!-- IMAGEM DO PRODUTO -->
+                                <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas-3.jpg" />
+
                                 <!-- DESCRIÇÃO DO PRODUTO -->
                                 <h3>Conjunto Sobremesa 7 Peças em Poliestireno</h3>
                                 <span class="cores">Cores<br /><img src="img/cores.png" /></span>
@@ -106,22 +120,40 @@
                         </li>
                         
                         <li>
-                            <a href="#" data-featherlight="#produto2">
+                            <a href="#produto2" class="fancybox" rel="gallery1">
                                 <div class="produto-image">
                                     <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas-2.jpg" />
                                 </div>
                                 <p class="produto-nome">Conjunto de Sobremesa</p>
                             </a>
-                            <div class="lightbox gallery" id="produto2">
+                            <div class="lightbox" id="produto2">
                                 <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas-2.jpg" />
                                 <h3>Conjunto Sobremesa 7 Peças em Poliestireno</h3>
                                 <span class="cores">Cores<br /><img src="img/cores.png" /></span>
                                 <span>1 saladeira<br />6 taças de sobremesa</span>
                             </div>
                         </li>
-                    </ul>
+                        <li>
+                            <a href="#produto2" class="fancybox" rel="gallery1">
+                                <div class="produto-image">
+                                    <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas-3.jpg" />
+                                </div>
+                                <p class="produto-nome">Conjunto de Sobremesa</p>
+                            </a>
+                            <div class="lightbox" id="produto2">
+                                <img src="img/conjuntos-de-sobremesa/conjunto-de-sobremesa-7-pecas/conjunto-sobremesa-7-pecas-3.jpg" />
+                                <h3>Conjunto Sobremesa 7 Peças em Poliestireno</h3>
+                                <span class="cores">Cores<br /><img src="img/cores.png" /></span>
+                                <span>1 saladeira<br />6 taças de sobremesa</span>
+                            </div>
+                        </li>
+                    
+                    
                 </div>
                 <div class="show-for-large-up large-1 columns"></div>
+                <a href="#" class="show-for-medium-down">
+                    <img src="img/download-catalogo.png" />
+                </a>
 
             </div>
         </div>
@@ -129,8 +161,7 @@
         <script src="js/vendor/jquery.js"></script>
         <script src="js/foundation.min.js"></script>
         <script src="js/Easy-Pinned-Footer-master/jquery.ez-pinned-footer.js" type="text/javascript" charset="utf-8"></script>
-        <script type="text/javascript" src="js/featherlight/featherlight.min.js"></script>
-        <script type="text/javascript" src="js/featherlight/featherlight.gallery.min.js"></script>
+        <script src="js/fancybox/source/jquery.fancybox.pack.js" type="text/javascript" charset="utf-8"></script>
         <script>
             $(document).foundation();
         </script>
@@ -144,16 +175,14 @@
             });
         </script>
         <script>
-        $(document).ready(function(){
-            $('.produto-slider').slick({
-                infinite: true,
-                speed: 300,
-                slidesToShow: 1,
-                autoplay: true,
-                autoplaySpeed: 4000
+        $(document).ready(function() {
+            $(".fancybox").fancybox({
+                openEffect	: 'none',
+                closeEffect	: 'none'
             });
         });
         </script>
+        
         <div id="footer"></div>
         
     </body>
