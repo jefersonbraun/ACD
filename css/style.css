@@ -200,6 +200,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 /* FIM DO FOOTER */
 
 /* PÁGINA EMPRESA */
@@ -316,7 +317,25 @@ address {
 
 /* FIM DA PÁGINA CONTATO */
 
-/* PÁGINA PRODUTOS */
+/* PÁGINA PRODUTOS NOVA */
+.fancybox-skin {
+    background: #fff;
+}
+
+
+.produto img {
+        max-width: 214px;
+        max-height: 128px;
+        overflow: hidden;
+         display: block;
+        margin: auto;
+    }
+
+.clearing-container .carousel { display: none; }
+
+/* FIM DA PÁGINA PRODUTOS NOVA */
+
+/* PÁGINA PRODUTOS ANTIGA */
 .produtos-container {
     padding-top: 80px;
     background-color: white;
@@ -335,7 +354,7 @@ address {
     }
 
 .produto-nome {
-    width: 214px;
+    width: 100%;
     height: 26px;
     text-align: center;
     line-height: 26px;
